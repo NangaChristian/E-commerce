@@ -1,0 +1,22 @@
+Specifications
+
+Processor:Intel Celeron N3060 2 x 1.6 - 2.5 GHz, Braswell
+Graphics adapter:Intel HD Graphics 400 (Braswell)
+Memory: 4GB , DDR3L SDRAM 1600 megahertz
+Display:11.60 inch 16:9, 1366 x 768 pixel 135 PPI, Capacitive, LED
+Storage:16 GB eMMC Flash, 16 GB  
+Connections:2 USB 3.0 / 3.1 Gen1, 1 HDMI, Audio Connections: 3.5mm, Card Reader: SD
+Networking:Intel Wireless-AC 7265 (a/b/g/n = Wi-Fi 4/ac = Wi-Fi 5), Bluetooth 4.1
+Size: height x width x depth (in mm): 21.8 x 300.4 x 212
+Battery:Lithium-Ion, 3-cell, Battery runtime (according to manufacturer): 14 h
+Operating System: Windows 10
+Camera:Webcam: HD
+Additional featuresSpeakers: Stereo, Keyboard: Chiclet
+Weight1.2 kg
+
+OVERVIEW
+As far as notebooks go, the Lenovo notebook N22 is a solid performer on every level, and the rugged design makes it more impressive. It isn’t one of those sleek notebooks we usually see in stores all over; rather, a notebook built like a tank and well suited to classroom duty and life on the road.
+Rugged construction
+Roomy keyboard
+Solid performance
+Good battery life in testing

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ecommerce</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="Home.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <i class="fa-solid fa-cart-shopping-fast"></i>
+            <div id="viewport">
+                <ul id="navbar">
+                    <li><a  href="home1.html">Home</a></li>
+                    <li><a  href="Shop.html">Shop</a></li>
+                    <li><a  href="Blog.html">Blog</a></li>
+                    <li><a  href="About.html">About</a></li>
+                    <li><a  href="Contact.html">Contact</a></li>
+                    <li class="cart">
+                        <a class="active" href="Cart.html" id="lg-cart">
+                            <i class="fas fa-shopping-cart"></i><span>0</span>
+                        </a>
+                    </li>
+                    <a href="#" id="close"><i class="far fa-window-close"></i></a>
+                </ul>
+               
+            </div>
+
+            <div id="mobile">
+                <a href="Cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <section id="page-header" class="cart-header">
+           
+            <h2>#let's_talk</h2>
+          
+            <p>Leave a Message, We love to hear from you!</p>
+
+        </section>
+
+       
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                        <td><img src="images/Laptops/asus4.png" alt=""></td>
+                        <td>Asus E410M</td>
+                        <td>300.000XAF</td>
+                        <td><input type="number" value="1"></td>
+                        <td>300.000XAF</td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                        <td><img src="images/Laptops/hp8.jpg" alt=""></td>
+                        <td>Hp Stream</td>
+                        <td>250.000XAF</td>
+                        <td><input type="number" value="1"></td>
+                        <td>250.000XAF</td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                        <td><img src="images/Laptops/lenovo8.jpg" alt=""></td>
+                        <td>Lenovo Thinkpad</td>
+                        <td>120.000XAF</td>
+                        <td><input type="number" value="1"></td>
+                        <td>120.000XAF</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+          
+        <section id="cart-add" class="section-p1">
+         
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+
+                <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+                </div>
+
+            </div>
+
+            <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>580.000XAF</td>
+                    </tr>
+
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>580.000XAF</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Checkout</button>
+            </div>
+
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img src="images/logo.png" class="logo" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> Fret Airport, Opposite Ecole des Nation, Douala</p>
+                <p><strong>Phone:</strong> +237 691 47 74 99/ +237 651 28 38 72</p>
+                <p><strong>Hours:</strong> 8:00 - 17:00 Mon - Fri</p>
+
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-telegram"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="About.html">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="Contact.html">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col">
+                <p><strong>Secured Payment Gateway</strong></p>
+                <img src="images/pay.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p>© 2022, eKoop - Ecommerce platform</p>
+            </div>
+            
+        </footer>
+
+        <script src="Home.js"></script>
+    
+    
+    </body>
+
+
+    </html>
